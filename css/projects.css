@@ -1,0 +1,107 @@
+/* Shape Divider */
+.custom-shape-divider-top-1711848197 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+.custom-shape-divider-top-1711848197 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 68px;
+}
+.custom-shape-divider-top-1711848197 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.custom-shape-divider-bottom-1711851179 {
+    position: relative;
+    bottom: -4.5%;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1711851179 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 68px;
+}
+
+.custom-shape-divider-bottom-1711851179 .shape-fill {
+    fill: #FFFFFF;
+}
+/* Shape Divider */
+
+#projects{
+    width: 100vw;
+    background-image: url("../images/wp2.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+
+#projects #content{
+    width: 100vw;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+
+#projects #text2 h1{
+    font-family: "Sacramento", sans-serif;
+    font-size: 150px;
+    padding: 10px;
+}
+
+#projects #container1{
+    width: 100vw;
+    padding: 25px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#projects #container1 .project{
+    width: 65vw;
+    min-height: 10vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsla(0, 0%, 0%, .25);
+    backdrop-filter: blur(10px);
+    filter: contrast(10px);
+    border-radius: 8px;
+    color: hsla(100, 100%, 100%, .5);
+    transition: .2s;
+}
+#projects #container1 .project:hover{
+    background: hsla(0, 0%, 0%, .5);
+    color: hsl(100, 100%, 100%);
+    transform: scale(1.025,1.025);
+    transition: .2s;
+}
+
+#projects #container1 .project a{
+    text-decoration: none;
+    color: hsla(100, 100%, 100%, .5);
+}
+
+@media screen and (max-width: 512px){
+    #projects #text2 h1{
+        font-family: "Sacramento", sans-serif;
+        font-size: 100px;
+        padding: 10px;
+    }
+}

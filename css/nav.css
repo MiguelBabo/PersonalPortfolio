@@ -1,0 +1,32 @@
+#navbar{
+    width: 100vw;
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: hsla(0, 0%, 0%, .25);
+    backdrop-filter: blur(10px);
+    filter: contrast(10px);
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    z-index: 2;
+}
+
+#navbar a{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7.5px;
+    color: hsla(100, 100%, 100%, .5);
+    text-decoration: none;
+    transition: .2s;
+}
+#navbar a:hover{
+    transform: scale(1.025,1.025);
+    color: hsl(100, 100%, 100%);
+    transition: .2s;
+}  
+

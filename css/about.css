@@ -1,0 +1,41 @@
+#about{
+    width: 100vw;
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#about #text1 h1{
+    font-size: 150px;
+    font-family: "Sacramento", sans-serif;
+    text-align: center;
+}
+
+#about #text1 p{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: justify;
+}
+
+@media screen and (max-width: 512px){
+    #about{
+        width: 100vw;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    #about #text1 h1{
+        font-size: 120px;
+        font-family: "Sacramento", sans-serif;
+        text-align: center;
+    }
+    
+    #about #text1 p{
+        font-size: 25px;
+        font-weight: 700;
+        text-align: center;
+    }
+}

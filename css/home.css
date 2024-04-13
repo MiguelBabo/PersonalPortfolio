@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    
+}
+
+/* Shape Divider */
+
+.custom-shape-divider-bottom-1711835171 {
+    position: relative;
+    bottom: 68px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1711835171 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 68px;
+}
+
+.custom-shape-divider-bottom-1711835171 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* Shape Divider */
+
+
+#home{
+    width: 100vw;
+    height: 90vh;
+    background-image: url("../images/wp1.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    padding: 0 0 100px 50px;
+}
+
+#home #bg1{
+    width: auto;
+    height: auto;
+}
+#home #bg1 h1{
+    font-size: 150px;
+    color: #fff;
+    font-family: "Sacramento";
+    padding: 10px;
+}
+#home #bg1 h4{
+    font-size: 30px;
+    color: #fff;
+}
+
+@media screen and (max-width: 1366px){
+    #home #bg1 h1{
+        font-size: 80px;
+        color: #fff;
+        font-family: "Sacramento";
+        padding: 10px;
+    }
+    #home #bg1 h4{
+        font-size: 19px;
+        color: #fff;
+    }
+}
+
+@media screen and (max-width: 512px){
+    #home #bg1 h1{
+        font-size: 75px;
+        color: #fff;
+        font-family: "Sacramento";
+        padding: 10px;
+    }
+    #home #bg1 h4{
+        font-size: 20px;
+        color: #fff;
+    }
+    #home{
+        padding: 0;
+        padding-bottom: 100px;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        text-align: center;
+    }
+}
